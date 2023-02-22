@@ -12,8 +12,9 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-<table class="table font-minospace text-end fw-bold">
-	<thead>
+	<caption>List of all the transactions</caption>
+<table class="table font-minospace text-end fw-bold table-hover table-responsive">
+	<thead class="bg-dark">
 		<tr class="bg-dark">
 			<th>#</th>
 			<th>From</th>
@@ -40,10 +41,13 @@
 			<td>John</td>
 			<td>2000</td>
 		</tr>
-		<tr class="total font-monospace text-end fw-bold bg-primary">
-			<td colspan="4">Total 4000</td>
+		<tfoot class="tfoot">
+		<tr class="font-monospace text-end fw-bold bg-primary" id="total">
+			<td colspan="4" id="total">Total 4000</td>
 			
 		</tr>
+</tfoot>
+
 	</tbody>
 </table>
 </body>
